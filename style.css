@@ -1,0 +1,48 @@
+.page {
+    max-width: 400px;
+    padding: 2rem;
+    margin: 0 auto;
+    text-align: center;
+    user-select: none;
+}
+
+.fifteen {
+    width: 100%;
+    padding-bottom: 100%;
+    background: #e5d6f6;
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+
+.fifteen__item {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 25%;
+    height: 25%;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: #000;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 5px #922ec5;
+    transition: transform 0.2s;
+    
+}
+.fifteenWon .fifteen__item{
+    box-shadow: inset 0 0 0 5px red;
+}
+
+.btn {
+    color:#fff;
+    background:#000;
+    border:none;
+    cursor:pointer;
+    padding: 0.5rem 1.5rem;
+}
+.btn:hover{
+    background: #922ec5;
+    transition: .3s all;
+}
